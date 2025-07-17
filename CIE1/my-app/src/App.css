@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #eef2f7;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.main-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  margin-bottom: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.section h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.input-row {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.input-row input {
+  flex: 1;
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.greeting {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  color: black;
+  font-weight: bold;
+}
+
+.clock {
+  font-size: 1.2rem;
+  color: #34495e;
+  font-weight: 500;
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.button-group button {
+  flex: 1 1 40%;
+  padding: 0.8rem 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #b358da, #9b59b6);
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.button-group button:hover {
+  transform: scale(1.05);
+}
+
+.button-group.small button {
+  flex: 1;
+  background: #b358da;
+}
+
+.button-group.small button:hover {
+  background: #b358da;
+}
+
+.button-group.small button:disabled {
+  background: #bdc3c7;
+  cursor: not-allowed;
+}
+
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.summary-box {
+  background: #dadfe4;
+  /* border-left: 6px solid #8e44ad; */
+  padding: 0.5rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.summary-box h3 {
+  margin: 0;
+  color: #2c3e50;
+}
+
+.summary-box p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #8e44ad;
+  margin-top: 0.5rem;
+}
+
+.counter {
+  font-size: 2rem;
+  color: #8e44ad;
+  font-weight: bold;
+  margin: 1rem 0;
+  text-align: center;
+}
